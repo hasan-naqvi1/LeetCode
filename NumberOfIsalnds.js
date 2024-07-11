@@ -1,7 +1,3 @@
-/**
- * @param {character[][]} grid
- * @return {number}
- */
 var numIslands = function (grid) {
   let count = 0;
   for (let i = 0; i < grid.length; i++) {

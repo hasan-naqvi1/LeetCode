@@ -5,11 +5,7 @@
  *     this.next = (next===undefined ? null : next)
  * }
  */
-/**
- * @param {ListNode} head
- * @param {number} n
- * @return {ListNode}
- */
+
 var removeNthFromEnd = function (head, n) {
   const dummy = new ListNode(0, head);
   let left = dummy;

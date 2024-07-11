@@ -1,7 +1,3 @@
-/**
- * @param {string} digits
- * @return {string[]}
- */
 var letterCombinations = function (digits) {
   const res = [];
   const digMap = {

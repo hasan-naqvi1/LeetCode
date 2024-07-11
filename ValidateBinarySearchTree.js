@@ -6,10 +6,7 @@
  *     this.right = (right===undefined ? null : right)
  * }
  */
-/**
- * @param {TreeNode} root
- * @return {boolean}
- */
+
 var isValidBST = function (root) {
   return valid(root, -Infinity, Infinity);
 };

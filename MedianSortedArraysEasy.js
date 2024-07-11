@@ -1,15 +1,6 @@
-class Solution {
-  /**
-   * @param {number[]} nums1
-   * @param {number[]} nums2
-   * @return {number}
-   */
+
   findMedianSortedArrays(nums1, nums2) {
-    /**
-     * @param {number[]} nums1
-     * @param {number[]} nums2
-     * @return {number}
-     */
+   
 
     let merged = [];
     let i = 0;
@@ -26,4 +17,3 @@ class Solution {
     if (merged.length % 2 === 0) return (merged[mid - 1] + merged[mid]) / 2;
     else return merged[mid];
   }
-}

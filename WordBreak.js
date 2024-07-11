@@ -1,8 +1,3 @@
-/**
- * @param {string} s
- * @param {string[]} wordDict
- * @return {boolean}
- */
 var wordBreak = function (s, wordDict) {
   let dp = new Array(s.length + 1).fill(false);
   dp[s.length] = true;

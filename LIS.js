@@ -12,6 +12,8 @@ const LIS = (n) => {
   }
   return Math.max(...dp);
 };
+
+//Binary Search
 const LISBS = (num) => {
   const sub = [];
   for (let n of num) {

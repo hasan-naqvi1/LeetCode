@@ -1,7 +1,3 @@
-/**
- * @param {string} s
- * @return {number}
- */
 var numDecodings = function (s) {
   let dp = new Array(s.length + 1).fill(0);
   dp[s.length] = 1;

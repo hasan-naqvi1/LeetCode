@@ -1,7 +1,3 @@
-/**
- * @param {number[]} nums
- * @return {number}
- */
 var findDuplicate = function (nums) {
   let slow = 0;
   let fast = 0;

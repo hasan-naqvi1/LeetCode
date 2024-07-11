@@ -1,7 +1,3 @@
-/**
- * @param {number[]} nums
- * @return {number}
- */
 var rob = function (nums) {
   return Math.max(
     nums[0],

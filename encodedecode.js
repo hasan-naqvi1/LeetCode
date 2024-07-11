@@ -1,16 +1,9 @@
-class Solution {
-  /**
-   * @param {string[]} strs
-   * @returns {string}
-   */
+
   encode(strs) {
     return strs.map((str) => `${str.length}#${str}`).join("");
   }
 
-  /**
-   * @param {string} str
-   * @returns {string[]}
-   */
+  
   decode(str) {
     let result = [];
     let i = 0;
@@ -27,4 +20,4 @@ class Solution {
     }
     return result;
   }
-}
+

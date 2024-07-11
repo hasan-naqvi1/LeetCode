@@ -6,10 +6,7 @@
  *     this.right = (right===undefined ? null : right)
  * }
  */
-/**
- * @param {TreeNode} root
- * @return {number[]}
- */
+
 var rightSideView = function (root) {
   let res = [];
   let q = [];

@@ -1,8 +1,3 @@
-/**
- * @param {number} m
- * @param {number} n
- * @return {number}
- */
 var uniquePaths = function (m, n) {
   const dp = new Array(m).fill(0).map(() => new Array(n).fill(0));
   for (let i = 0; i < m; i++) {

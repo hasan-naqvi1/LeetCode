@@ -1,7 +1,3 @@
-/**
- * @param {number[]} nums
- * @return {boolean}
- */
 var canPartition = function (nums) {
   const sum = nums.reduce((acc, nums) => acc + nums, 0);
   if (sum % 2 !== 0) return false;

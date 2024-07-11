@@ -6,10 +6,6 @@
  * };
  */
 
-/**
- * @param {_Node} node
- * @return {_Node}
- */
 var cloneGraph = function (node) {
   const o2n = new Map();
   return dfs(node, o2n);

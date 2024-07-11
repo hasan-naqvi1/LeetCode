@@ -6,11 +6,7 @@
  *     this.right = (right===undefined ? null : right)
  * }
  */
-/**
- * @param {TreeNode} root
- * @param {number} k
- * @return {number}
- */
+
 var kthSmallest = function (root, k) {
   let stack = [];
 

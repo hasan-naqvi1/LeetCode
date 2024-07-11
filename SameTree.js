@@ -9,12 +9,7 @@
  * }
  */
 
-class Solution {
-  /**
-   * @param {TreeNode} p
-   * @param {TreeNode} q
-   * @return {boolean}
-   */
+
   isSameTree(p, q) {
     if (!p && !q) {
       return true;
@@ -25,4 +20,4 @@ class Solution {
       );
     else return false;
   }
-}
+

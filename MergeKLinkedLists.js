@@ -8,11 +8,7 @@
  * }
  */
 
-class Solution {
-  /**
-   * @param {ListNode[]} lists
-   * @return {ListNode}
-   */
+
   mergeKLists(lists) {
     if (!lists || lists.length === 0) return null;
 
@@ -45,4 +41,4 @@ class Solution {
     if (l2) tail.next = l2;
     return dummy.next;
   }
-}
+

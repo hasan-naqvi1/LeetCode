@@ -1,7 +1,3 @@
-/**
- * @param {number[]} prices
- * @return {number}
- */
 var maxProfit = function (prices) {
   if (prices.length === 0) return 0;
   const l = prices.length;

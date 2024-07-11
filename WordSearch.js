@@ -1,8 +1,3 @@
-/**
- * @param {character[][]} board
- * @param {string} word
- * @return {boolean}
- */
 var exist = function (board, word) {
   const row = board.length;
   const col = board[0].length;

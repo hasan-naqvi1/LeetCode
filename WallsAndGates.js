@@ -1,7 +1,4 @@
-class Solution {
-  /**
-   * @param {number[][]} grid
-   */
+
   islandsAndTreasure(grid) {
     const rows = grid.length;
     const cols = grid[0].length;
@@ -22,10 +19,10 @@ class Solution {
       for (let i = 0; i < l; i++) {
         let [r, c] = q.shift();
         grid[r][c] = dist;
-        this.addCell(r + 1, c, rows, cols, visit, grid, q);
-        this.addCell(r - 1, c, rows, cols, visit, grid, q);
-        this.addCell(r, c + 1, rows, cols, visit, grid, q);
-        this.addCell(r, c - 1, rows, cols, visit, grid, q);
+        addCell(r, c - 1, rows, cols, visit, grid, q);
+        addCell(r + 1, c, rows, cols, visit, grid, q);
+        addCell(r - 1, c, rows, cols, visit, grid, q);
+        addCell(r, c + 1, rows, cols, visit, grid, q);
       }
       dist += 1;
     }
@@ -43,4 +40,4 @@ class Solution {
     visit.add(r + "," + c);
     q.push([r, c]);
   }
-}
+
